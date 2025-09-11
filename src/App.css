@@ -1,0 +1,41 @@
+.navbar-brand img{
+  width: 40px;
+  height: auto;
+ }
+.custom-navbar {
+  background: transparent;
+  transition: background-color 0.3s ease;
+  
+}
+.navbar-bg {
+  background-color: #18124f !important;
+  
+}
+
+
+
+.nav-link-text:hover{
+ color: darkkhaki!important;
+}
+.nav-link-text,
+.navbar-nav .nav-link
+ {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.active
+ {
+  background-color: #1e5877 !important;
+  color: white !important;
+}
+/* CustomNavbar.css */
+
+/* Make dropdown open on hover */
+.navbar-bg .dropdown:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0; /* optional: remove spacing */
+}
+
+.navbar-bg .dropdown-menu {
+  transition: all 0.3s ease;
+}

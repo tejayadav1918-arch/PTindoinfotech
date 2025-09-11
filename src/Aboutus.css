@@ -1,0 +1,120 @@
+/* ------------------ Hero Banner ------------------ */
+.about-hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background: url("../src/assets/hero.jpg") no-repeat center center/cover;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about-hero-text h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.about-hero-text p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* ------------------ Zig-Zag Sections ------------------ */
+.about-zigzag {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.zigzag-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  gap: 40px;
+  flex-wrap: nowrap; /* Ensure image/text stay side by side on desktop */
+}
+
+.zigzag-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.zigzag-image {
+  flex: 1;
+}
+
+.zigzag-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.zigzag-text {
+  flex: 1;
+}
+
+.zigzag-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+.zigzag-text p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.zigzag-text ul {
+  margin: 15px 0;
+  padding-left: 20px;
+  color: #555;
+}
+
+.zigzag-text ul li {
+  margin-bottom: 10px;
+}
+
+/* ------------------ Responsive ------------------ */
+@media (max-width: 992px) {
+  .about-hero-text h1 {
+    font-size: 2.5rem;
+  }
+  .about-hero-text p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .zigzag-item,
+  .zigzag-item.reverse {
+    flex-direction: column; /* stack for mobile */
+    align-items: center;
+    text-align: center;
+  }
+
+  .zigzag-image img {
+    max-width: 100%;
+  }
+
+  .zigzag-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .zigzag-text p {
+    font-size: 1rem;
+  }
+}
