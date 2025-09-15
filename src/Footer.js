@@ -49,9 +49,9 @@ Jakarta, 10350, Indonesia</p>
         {/* Right: Contact Info */}
         <div className="footer-contact" data-aos="fade-right">
           <h4>Contact</h4>
-          <p>Email: support@yourcompany.com</p>
-          <p>Phone: +91 98765 43210</p>
-          <p>Hyderabad, India</p>
+          <p><b>Email:</b> permit.ptindoinfotech@gmail.com</p>
+          <p><b>Phone:</b> +62 878-5331-4909</p>
+          <p>Dearah khusus ibukota Jakarta , Indonesia</p>
         </div>
       </div>
 
