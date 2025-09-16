@@ -46,7 +46,7 @@ const Home = () => {
         <div className="hero-text">
           <h1 data-aos="fade-left"><b>PT.INDO INFOTECH SOLUTION</b></h1>
           <p data-aos="fade-left"><b>Driving digital transformation with reliable and scalable IT services.</b></p>
-          <button className="hero-btn">Get Started</button>
+
         </div>
       </div>
     </section>
