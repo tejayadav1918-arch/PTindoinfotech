@@ -1,7 +1,7 @@
 const { SitemapStream, streamToPromise } = require("sitemap");
 const { createWriteStream } = require("fs");
 
-const hostname = "https://yourdomain.com"; // 👉 replace with your real domain
+const hostname = "https://ptindoinfotechsolutions.com"; // 👉 replace with your real domain
 
 // All your React Router paths
 const links = [
