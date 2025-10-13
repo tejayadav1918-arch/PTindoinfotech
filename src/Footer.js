@@ -57,7 +57,7 @@ Jakarta, 10350, Indonesia</p>
 
       {/* Bottom Bar */}
       <div className="footer-bottom" data-aos="fade-right">
-        <p>© {new Date().getFullYear()} YourCompany. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} PT indo infotech solutions. All Rights Reserved.</p>
       </div>
     </footer>
   );
