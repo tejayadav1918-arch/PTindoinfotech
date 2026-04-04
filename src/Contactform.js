@@ -1,21 +1,10 @@
 import React from 'react'
 import "./Home.css"
-import { Helmet } from "react-helmet-async";
 
 const Contactform = () => {
   return (
     
    <section className="contact-section">
-    <Helmet>
-  <title>Contact Us | PT Indo Infotech</title>
-  <meta
-    name="description"
-    content="Get in touch with PT Indo Infotech. Contact us today for cloud, cybersecurity, IT consulting, and managed services."
-  />
-  <meta property="og:title" content="Contact PT Indo Infotech" />
-  <meta property="og:description" content="We’d love to hear from you. Reach out for IT services and support." />
-  <meta property="og:image" content="https://yourdomain.com/assets/contact-banner.jpg" />
-</Helmet>
 
   <div className="container">
     <h2 className="text-center mb-4">Contact Us</h2>
